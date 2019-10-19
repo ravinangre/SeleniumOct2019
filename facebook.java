@@ -23,7 +23,8 @@ public class facebook {
 		dd.selectByValue("13");
 		Select mm=new Select(driver.findElement(By.id("month")));
 		mm.selectByValue("11");
-		
+		Select yy=new Select(driver.findElement(by.id("year")));
+		yy.SelectByValue("1983");
 		
 	}
 
